@@ -1,4 +1,3 @@
 package com.doontcare.me.listeners;
 
-public class ScoreboardListener {
-}
+public class ScoreboardListener {}

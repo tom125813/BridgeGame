@@ -1,6 +1,6 @@
 package com.doontcare.me.instance;
 
-import com.doontcare.me.GameState;
+import com.doontcare.me.enums.GameState;
 import com.doontcare.me.managers.ConfigManager;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

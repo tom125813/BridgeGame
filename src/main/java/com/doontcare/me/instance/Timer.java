@@ -1,8 +1,7 @@
 package com.doontcare.me.instance;
 
 import com.doontcare.me.BridgeGame;
-import com.doontcare.me.GameState;
-import org.bukkit.permissions.PermissionAttachment;
+import com.doontcare.me.enums.GameState;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class Timer extends BukkitRunnable {
