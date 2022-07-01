@@ -1,0 +1,27 @@
+# Countdown in seconds
+countdowns:
+  start: 5
+  end: 2
+lobby:
+  world: ''
+  x: 0
+  y: 0
+  z: 0
+  yaw: 0
+  pitch: 0
+arenas:
+  0:
+    world: ''
+    x: 0
+    y: 0
+    z: 0
+    yaw: 0
+    pitch: 0
+  1:
+    world: ''
+    x: 0
+    y: 0
+    z: 0
+    yaw: 0
+    pitch: 0
+

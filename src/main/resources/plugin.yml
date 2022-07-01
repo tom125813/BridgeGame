@@ -1,0 +1,4 @@
+name: Bridging
+version: '${project.version}'
+main: com.doontcare.me.BridgeGame
+api-version: 1.19
