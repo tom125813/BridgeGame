@@ -29,4 +29,7 @@ public class Timer extends BukkitRunnable {
     public void run() {
         seconds+=(period/20);
     }
+
+    public double getTime() {return seconds;}
+
 }

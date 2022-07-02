@@ -18,7 +18,7 @@ public class ArenaManager {
         this.bridgeGame = bridgeGame;
         FileConfiguration config = bridgeGame.getConfig();
         for (String ar : config.getConfigurationSection("maps").getKeys(false))
-            arenas.add(new Arena(Integer.valueOf(ar), new Location(
+            arenas.add(new Arena(bridgeGame, Integer.valueOf(ar), new Location(
                     Bukkit.getWorld(config.getString("arenas."+ar+".world")),
                     config.getDouble("arenas."+ar+".x"),
                     config.getDouble("arenas."+ar+".y"),
