@@ -35,7 +35,7 @@ public class Countdown extends BukkitRunnable {
             if (type == Type.START) {
                 arena.start();
             } else {
-                arena.reset();
+                arena.reset(true);
             }
             return;
         }
